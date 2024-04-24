@@ -1,0 +1,37 @@
+@media (max-width: 770px) {
+  .cube > div {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 37px;
+  }
+  .cube .front {
+    transform: translateZ(50px);
+  }
+  .cube .back {
+    transform: rotateY(180deg) translateZ(50px);
+  }
+  .cube .right {
+    transform: rotateY(90deg) translateZ(50px);
+  }
+  .cube .left {
+    transform: rotateY(-90deg) translateZ(50px);
+  }
+  .cube .top {
+    transform: rotateX(-90deg) translateY(0px) translateZ(50px);
+  }
+  .cube .bottom {
+    transform: rotateX(90deg) translateY(0px) translateZ(50px);
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .cube {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+  }
+}

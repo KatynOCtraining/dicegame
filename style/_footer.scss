@@ -1,0 +1,12 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* Assure-toi que le footer occupe toute la largeur de la page */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: gray;
+  color: white;
+}
