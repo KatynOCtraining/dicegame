@@ -1,6 +1,32 @@
 .edit_container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
+  gap: 20%;
+}
+
+.edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.edit input[type="text"] {
+  max-width: 100px;
+  align-items: center; /* Ajuste la largeur maximale selon tes besoins */
+}
+
+button {
+  background: white;
+  border: none;
+}
+
+.fa-plus {
+  color: green;
+  font-size: 20px;
+}
+
+button:hover .fa-plus {
+  transform: rotate(360deg); /* Zoom sur l'icône au survol */
+  transition: transform 0.5s ease-in-out; /* Ajoute une transition fluide */
 }
