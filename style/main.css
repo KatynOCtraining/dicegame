@@ -7,25 +7,22 @@ h1 {
 .container {
   width: 400px;
   height: 200px;
-  /* position: relative; */
-  margin: 0 auto 40px;
-  margin-top: 50px;
   perspective: 1000px;
   perspective-origin: 50% 100%;
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 10px;
 }
 
 .cube {
   width: 200px;
   height: 200px;
-  /* position: absolute; */
-  top: 0; /* Modifier pour aligner le cube au haut du conteneur */
-  /* left: 50%;  */
+  top: 0;
   transform-style: preserve-3d;
   transition: transform 3s;
-  /* transform: translateX(-50%);  */
 }
 
 .cube:hover {
@@ -39,22 +36,13 @@ h1 {
   width: 200px;
   height: 200px;
   border: 2px solid #ab1a1a;
+  border-radius: 15px;
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   text-align: center;
   padding-top: 75px; /* Ajuster le padding pour le centrage vertical */
   box-sizing: border-box; /* Ajout pour inclure la bordure dans la taille de la boîte */
-}
-
-/* Styles spécifiques pour le premier dé */
-#cube1 {
-  left: 0;
-}
-
-/* Styles spécifiques pour le deuxième dé */
-#cube2 {
-  left: 200px;
 }
 
 /* Transformation 3D pour chaque face */
@@ -119,6 +107,7 @@ button:hover .fa-plus {
 body {
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
+  margin: 0;
 }
 
 h1 {
