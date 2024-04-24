@@ -28,3 +28,9 @@ function rollDice(cube) {
 function getRandom(max, min) {
   return (Math.floor(Math.random() * (max - min)) + min) * 90;
 }
+
+function ajouterTexte(numFace) {
+  var texte = document.getElementById("faceText" + numFace).value;
+  var face = document.getElementById("face" + numFace);
+  face.textContent = texte;
+}

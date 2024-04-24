@@ -6,23 +6,20 @@ h1 {
 .container {
   width: 400px;
   height: 200px;
-  position: relative;
+  /* position: relative; */
   margin: 0 auto 40px;
-
+  margin-top: 200px;
   perspective: 1000px;
   perspective-origin: 50% 100%;
-  top: 300px;
-  gap: 200px;
-}
-
-.dice-container {
-  margin-right: 200px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
 .cube {
   width: 200px;
   height: 200px;
-  position: absolute;
+  /* position: absolute; */
   top: 0; /* Modifier pour aligner le cube au haut du conteneur */
   /* left: 50%;  */
   transform-style: preserve-3d;

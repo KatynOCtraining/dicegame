@@ -10,28 +10,122 @@
   <body>
     <main>
       <h1>Lance le dé si tu l'oses</h1>
+
+      <section>
+        <div>
+          <label for="faceText1">Texte pour la face 1 :</label>
+          <input
+            type="text"
+            id="faceText1"
+            placeholder="Entrez le texte pour la face 1"
+          />
+          <button onclick="ajouterTexte(1)">Ajouter</button>
+
+          <label for="faceText2">Texte pour la face 2 :</label>
+          <input
+            type="text"
+            id="faceText2"
+            placeholder="Entrez le texte pour la face 2"
+          />
+          <button onclick="ajouterTexte(2)">Ajouter</button>
+          <label for="faceText3">Texte pour la face 3 :</label>
+          <input
+            type="text"
+            id="faceText3"
+            placeholder="Entrez le texte pour la face 3"
+          />
+          <button onclick="ajouterTexte(3)">Ajouter</button>
+          <label for="faceText4">Texte pour la face 4 :</label>
+          <input
+            type="text"
+            id="faceText4"
+            placeholder="Entrez le texte pour la face 4"
+          />
+          <button onclick="ajouterTexte(4)">Ajouter</button>
+          <label for="faceText2">Texte pour la face 5 :</label>
+          <input
+            type="text"
+            id="faceText5"
+            placeholder="Entrez le texte pour la face 5"
+          />
+          <button onclick="ajouterTexte(5)">Ajouter</button>
+          <label for="faceText2">Texte pour la face 6 :</label>
+          <input
+            type="text"
+            id="faceText6"
+            placeholder="Entrez le texte pour la face 6"
+          />
+          <button onclick="ajouterTexte(6)">Ajouter</button>
+        </div>
+        <div>
+          <label for="faceText7">Texte pour la face 1 :</label>
+          <input
+            type="text"
+            id="faceText7"
+            placeholder="Entrez le texte pour la face 1"
+          />
+          <button onclick="ajouterTexte(7)">Ajouter</button>
+
+          <label for="faceText2">Texte pour la face 2 :</label>
+          <input
+            type="text"
+            id="faceText8"
+            placeholder="Entrez le texte pour la face 2"
+          />
+          <button onclick="ajouterTexte(8)">Ajouter</button>
+          <label for="faceText3">Texte pour la face 3 :</label>
+          <input
+            type="text"
+            id="faceText9"
+            placeholder="Entrez le texte pour la face 3"
+          />
+          <button onclick="ajouterTexte(9)">Ajouter</button>
+          <label for="faceText4">Texte pour la face 4 :</label>
+          <input
+            type="text"
+            id="faceText10"
+            placeholder="Entrez le texte pour la face 4"
+          />
+          <button onclick="ajouterTexte(10)">Ajouter</button>
+          <label for="faceText2">Texte pour la face 5 :</label>
+          <input
+            type="text"
+            id="faceText11"
+            placeholder="Entrez le texte pour la face 5"
+          />
+          <button onclick="ajouterTexte(11)">Ajouter</button>
+          <label for="faceText2">Texte pour la face 6 :</label>
+          <input
+            type="text"
+            id="faceText12"
+            placeholder="Entrez le texte pour la face 6"
+          />
+          <button onclick="ajouterTexte(12)">Ajouter</button>
+        </div>
+      </section>
+
       <section class="container">
         <div class="dice-container">
           <!-- Conteneur pour le premier dé -->
           <div id="cube1" class="cube">
             <!-- Premier dé -->
             <div class="front">
-              <span class="action">Face1</span>
+              <span class="action" id="face1">Face1</span>
             </div>
             <div class="back">
-              <span class="action">Face2</span>
+              <span class="action" id="face2">Face2</span>
             </div>
             <div class="right">
-              <span class="action">Face3</span>
+              <span class="action" id="face3">Face3</span>
             </div>
             <div class="left">
-              <span class="action">Face4</span>
+              <span class="action" id="face4">Face4</span>
             </div>
             <div class="top">
-              <span class="action">Face5</span>
+              <span class="action" id="face5">Face5</span>
             </div>
             <div class="bottom">
-              <span class="action">Face6</span>
+              <span class="action" id="face6">Face6</span>
             </div>
           </div>
         </div>
@@ -41,22 +135,22 @@
           <div id="cube2" class="cube">
             <!-- Deuxième dé -->
             <div class="front">
-              <span class="action">Face1</span>
+              <span class="action" id="face7">Face1</span>
             </div>
             <div class="back">
-              <span class="action">Face2</span>
+              <span class="action" id="face8">Face2</span>
             </div>
             <div class="right">
-              <span class="action">Face3</span>
+              <span class="action" id="face9">Face3</span>
             </div>
             <div class="left">
-              <span class="action">Face4</span>
+              <span class="action" id="face10">Face4</span>
             </div>
             <div class="top">
-              <span class="action">Face5</span>
+              <span class="action" id="face11">Face5</span>
             </div>
             <div class="bottom">
-              <span class="action">Face6</span>
+              <span class="action" id="face12">Face6</span>
             </div>
           </div>
         </div>
