@@ -34,3 +34,25 @@ function ajouterTexte(numFace) {
   var face = document.getElementById("face" + numFace);
   face.textContent = texte;
 }
+// Récupérez la modale
+var modal = document.getElementById("myModal");
+
+// Récupérez l'élément <span> qui ferme la modale
+var span = document.getElementsByClassName("close")[0];
+
+// Lorsque la page est chargée, ouvrez la modale
+window.onload = function () {
+  modal.style.display = "block";
+};
+
+// Lorsque l'utilisateur clique sur <span> (x), fermez la modale
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+// Lorsque l'utilisateur clique en dehors de la modale, fermez-la
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
