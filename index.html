@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style/main.css" />
     <title>Jeu de dés</title>
   </head>
   <body>
     <main>
-      <h1>Lance le dé si tu l'oses</h1>
+      <h1>Lance les dés si tu l'oses</h1>
 
-      <section>
-        <div>
-          <label for="faceText1">Texte pour la face 1 :</label>
+      <section class="edit_container">
+        <div class="edit">
+          <h3>Personnalise le premier dé</h3>
+          <label for="faceText1"> Face 1 :</label>
           <input
             type="text"
             id="faceText1"
@@ -21,35 +22,35 @@
           />
           <button onclick="ajouterTexte(1)">Ajouter</button>
 
-          <label for="faceText2">Texte pour la face 2 :</label>
+          <label for="faceText2">Face 2 :</label>
           <input
             type="text"
             id="faceText2"
             placeholder="Entrez le texte pour la face 2"
           />
           <button onclick="ajouterTexte(2)">Ajouter</button>
-          <label for="faceText3">Texte pour la face 3 :</label>
+          <label for="faceText3">Face 3 :</label>
           <input
             type="text"
             id="faceText3"
             placeholder="Entrez le texte pour la face 3"
           />
           <button onclick="ajouterTexte(3)">Ajouter</button>
-          <label for="faceText4">Texte pour la face 4 :</label>
+          <label for="faceText4">Face 4 :</label>
           <input
             type="text"
             id="faceText4"
             placeholder="Entrez le texte pour la face 4"
           />
           <button onclick="ajouterTexte(4)">Ajouter</button>
-          <label for="faceText2">Texte pour la face 5 :</label>
+          <label for="faceText2">Face 5 :</label>
           <input
             type="text"
             id="faceText5"
             placeholder="Entrez le texte pour la face 5"
           />
           <button onclick="ajouterTexte(5)">Ajouter</button>
-          <label for="faceText2">Texte pour la face 6 :</label>
+          <label for="faceText2">Face 6 :</label>
           <input
             type="text"
             id="faceText6"
@@ -57,8 +58,9 @@
           />
           <button onclick="ajouterTexte(6)">Ajouter</button>
         </div>
-        <div>
-          <label for="faceText7">Texte pour la face 1 :</label>
+        <div class="edit">
+          <h3>Personnalise le second dé</h3>
+          <label for="faceText7">Face 1 :</label>
           <input
             type="text"
             id="faceText7"
@@ -66,35 +68,35 @@
           />
           <button onclick="ajouterTexte(7)">Ajouter</button>
 
-          <label for="faceText2">Texte pour la face 2 :</label>
+          <label for="faceText2">Face 2 :</label>
           <input
             type="text"
             id="faceText8"
             placeholder="Entrez le texte pour la face 2"
           />
           <button onclick="ajouterTexte(8)">Ajouter</button>
-          <label for="faceText3">Texte pour la face 3 :</label>
+          <label for="faceText3">Face 3 :</label>
           <input
             type="text"
             id="faceText9"
             placeholder="Entrez le texte pour la face 3"
           />
           <button onclick="ajouterTexte(9)">Ajouter</button>
-          <label for="faceText4">Texte pour la face 4 :</label>
+          <label for="faceText4">Face 4 :</label>
           <input
             type="text"
             id="faceText10"
             placeholder="Entrez le texte pour la face 4"
           />
           <button onclick="ajouterTexte(10)">Ajouter</button>
-          <label for="faceText2">Texte pour la face 5 :</label>
+          <label for="faceText2">Face 5 :</label>
           <input
             type="text"
             id="faceText11"
             placeholder="Entrez le texte pour la face 5"
           />
           <button onclick="ajouterTexte(11)">Ajouter</button>
-          <label for="faceText2">Texte pour la face 6 :</label>
+          <label for="faceText2">Face 6 :</label>
           <input
             type="text"
             id="faceText12"
