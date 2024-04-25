@@ -1,0 +1,19 @@
+.lancerLesDes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid violet;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.lancerLesDes:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s;
+  cursor: pointer;
+}

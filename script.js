@@ -34,6 +34,11 @@ function ajouterTexte(numFace) {
   var face = document.getElementById("face" + numFace);
   face.textContent = texte;
 }
+
+function lancerLesDes() {
+  rollDice(cube1); // Lancer le premier dé
+  rollDice(cube2); // Lancer le deuxième dé
+}
 // Récupérez la modale
 var modal = document.getElementById("myModal");
 
